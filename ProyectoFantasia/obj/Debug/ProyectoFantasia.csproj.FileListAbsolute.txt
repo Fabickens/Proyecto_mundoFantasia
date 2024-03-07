@@ -1,0 +1,12 @@
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\ProyectoFantasia.exe.config
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\ProyectoFantasia.exe
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\ProyectoFantasia.pdb
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.csproj.AssemblyReference.cache
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.Inicio.resources
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.Properties.Resources.resources
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.csproj.GenerateResource.cache
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.csproj.CoreCompileInputs.cache
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\Proyecto.5EC9B11D.Up2Date
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.exe
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.pdb
