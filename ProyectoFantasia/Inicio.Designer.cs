@@ -32,17 +32,17 @@ namespace ProyectoFantasia
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_mantenimiento = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_ventas = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_compras = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_clientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_proveedores = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_reportes = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_acercaDe = new System.Windows.Forms.ToolStripMenuItem();
             this.titulo = new System.Windows.Forms.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.menu_acercaDe = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_reportes = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_proveedores = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_clientes = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_compras = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_ventas = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -67,6 +67,19 @@ namespace ProyectoFantasia
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.AutoSize = false;
+            this.toolStripMenuItem7.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem7.ForeColor = System.Drawing.Color.Black;
+            this.toolStripMenuItem7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem7.Image")));
+            this.toolStripMenuItem7.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(80, 82);
+            this.toolStripMenuItem7.Text = "Usuarios";
+            this.toolStripMenuItem7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripMenuItem7.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
+            // 
             // menu_mantenimiento
             // 
             this.menu_mantenimiento.AutoSize = false;
@@ -78,6 +91,78 @@ namespace ProyectoFantasia
             this.menu_mantenimiento.Size = new System.Drawing.Size(80, 82);
             this.menu_mantenimiento.Text = "Ajustes";
             this.menu_mantenimiento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // menu_ventas
+            // 
+            this.menu_ventas.AutoSize = false;
+            this.menu_ventas.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu_ventas.ForeColor = System.Drawing.Color.Black;
+            this.menu_ventas.Image = ((System.Drawing.Image)(resources.GetObject("menu_ventas.Image")));
+            this.menu_ventas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menu_ventas.Name = "menu_ventas";
+            this.menu_ventas.Size = new System.Drawing.Size(80, 82);
+            this.menu_ventas.Text = "Ventas";
+            this.menu_ventas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // menu_compras
+            // 
+            this.menu_compras.AutoSize = false;
+            this.menu_compras.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu_compras.ForeColor = System.Drawing.Color.Black;
+            this.menu_compras.Image = ((System.Drawing.Image)(resources.GetObject("menu_compras.Image")));
+            this.menu_compras.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menu_compras.Name = "menu_compras";
+            this.menu_compras.Size = new System.Drawing.Size(80, 82);
+            this.menu_compras.Text = "Compras";
+            this.menu_compras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // menu_clientes
+            // 
+            this.menu_clientes.AutoSize = false;
+            this.menu_clientes.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu_clientes.ForeColor = System.Drawing.Color.Black;
+            this.menu_clientes.Image = ((System.Drawing.Image)(resources.GetObject("menu_clientes.Image")));
+            this.menu_clientes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menu_clientes.Name = "menu_clientes";
+            this.menu_clientes.Size = new System.Drawing.Size(80, 82);
+            this.menu_clientes.Text = "Clientes";
+            this.menu_clientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // menu_proveedores
+            // 
+            this.menu_proveedores.AutoSize = false;
+            this.menu_proveedores.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu_proveedores.ForeColor = System.Drawing.Color.Black;
+            this.menu_proveedores.Image = ((System.Drawing.Image)(resources.GetObject("menu_proveedores.Image")));
+            this.menu_proveedores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menu_proveedores.Name = "menu_proveedores";
+            this.menu_proveedores.Size = new System.Drawing.Size(80, 82);
+            this.menu_proveedores.Text = "Proveedores";
+            this.menu_proveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // menu_reportes
+            // 
+            this.menu_reportes.AutoSize = false;
+            this.menu_reportes.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu_reportes.ForeColor = System.Drawing.Color.Black;
+            this.menu_reportes.Image = ((System.Drawing.Image)(resources.GetObject("menu_reportes.Image")));
+            this.menu_reportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menu_reportes.Name = "menu_reportes";
+            this.menu_reportes.Size = new System.Drawing.Size(80, 82);
+            this.menu_reportes.Text = "Reportes";
+            this.menu_reportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // menu_acercaDe
+            // 
+            this.menu_acercaDe.AutoSize = false;
+            this.menu_acercaDe.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu_acercaDe.ForeColor = System.Drawing.Color.Black;
+            this.menu_acercaDe.Image = ((System.Drawing.Image)(resources.GetObject("menu_acercaDe.Image")));
+            this.menu_acercaDe.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menu_acercaDe.Name = "menu_acercaDe";
+            this.menu_acercaDe.Size = new System.Drawing.Size(80, 82);
+            this.menu_acercaDe.Text = "Acerca de";
+            this.menu_acercaDe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // titulo
             // 
@@ -112,90 +197,6 @@ namespace ProyectoFantasia
             this.panel1.Size = new System.Drawing.Size(990, 426);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // menu_acercaDe
-            // 
-            this.menu_acercaDe.AutoSize = false;
-            this.menu_acercaDe.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu_acercaDe.ForeColor = System.Drawing.Color.Black;
-            this.menu_acercaDe.Image = ((System.Drawing.Image)(resources.GetObject("menu_acercaDe.Image")));
-            this.menu_acercaDe.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menu_acercaDe.Name = "menu_acercaDe";
-            this.menu_acercaDe.Size = new System.Drawing.Size(80, 82);
-            this.menu_acercaDe.Text = "Acerca de";
-            this.menu_acercaDe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // menu_reportes
-            // 
-            this.menu_reportes.AutoSize = false;
-            this.menu_reportes.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu_reportes.ForeColor = System.Drawing.Color.Black;
-            this.menu_reportes.Image = ((System.Drawing.Image)(resources.GetObject("menu_reportes.Image")));
-            this.menu_reportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menu_reportes.Name = "menu_reportes";
-            this.menu_reportes.Size = new System.Drawing.Size(80, 82);
-            this.menu_reportes.Text = "Reportes";
-            this.menu_reportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // menu_proveedores
-            // 
-            this.menu_proveedores.AutoSize = false;
-            this.menu_proveedores.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu_proveedores.ForeColor = System.Drawing.Color.Black;
-            this.menu_proveedores.Image = ((System.Drawing.Image)(resources.GetObject("menu_proveedores.Image")));
-            this.menu_proveedores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menu_proveedores.Name = "menu_proveedores";
-            this.menu_proveedores.Size = new System.Drawing.Size(80, 82);
-            this.menu_proveedores.Text = "Proveedores";
-            this.menu_proveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // menu_clientes
-            // 
-            this.menu_clientes.AutoSize = false;
-            this.menu_clientes.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu_clientes.ForeColor = System.Drawing.Color.Black;
-            this.menu_clientes.Image = ((System.Drawing.Image)(resources.GetObject("menu_clientes.Image")));
-            this.menu_clientes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menu_clientes.Name = "menu_clientes";
-            this.menu_clientes.Size = new System.Drawing.Size(80, 82);
-            this.menu_clientes.Text = "Clientes";
-            this.menu_clientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // menu_compras
-            // 
-            this.menu_compras.AutoSize = false;
-            this.menu_compras.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu_compras.ForeColor = System.Drawing.Color.Black;
-            this.menu_compras.Image = ((System.Drawing.Image)(resources.GetObject("menu_compras.Image")));
-            this.menu_compras.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menu_compras.Name = "menu_compras";
-            this.menu_compras.Size = new System.Drawing.Size(80, 82);
-            this.menu_compras.Text = "Compras";
-            this.menu_compras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // menu_ventas
-            // 
-            this.menu_ventas.AutoSize = false;
-            this.menu_ventas.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu_ventas.ForeColor = System.Drawing.Color.Black;
-            this.menu_ventas.Image = ((System.Drawing.Image)(resources.GetObject("menu_ventas.Image")));
-            this.menu_ventas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menu_ventas.Name = "menu_ventas";
-            this.menu_ventas.Size = new System.Drawing.Size(80, 82);
-            this.menu_ventas.Text = "Ventas";
-            this.menu_ventas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripMenuItem7
-            // 
-            this.toolStripMenuItem7.AutoSize = false;
-            this.toolStripMenuItem7.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem7.ForeColor = System.Drawing.Color.Black;
-            this.toolStripMenuItem7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem7.Image")));
-            this.toolStripMenuItem7.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(80, 82);
-            this.toolStripMenuItem7.Text = "Usuarios";
-            this.toolStripMenuItem7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // panel2
             // 

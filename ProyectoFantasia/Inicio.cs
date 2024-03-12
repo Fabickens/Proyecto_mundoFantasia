@@ -36,5 +36,10 @@ namespace ProyectoFantasia
         {
 
         }
+
+        private void toolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
