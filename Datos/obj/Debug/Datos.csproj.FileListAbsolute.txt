@@ -1,0 +1,9 @@
+C:\Users\Fabián\Desktop\VentaFantasias\Datos\bin\Debug\Datos.dll
+C:\Users\Fabián\Desktop\VentaFantasias\Datos\bin\Debug\Datos.pdb
+C:\Users\Fabián\Desktop\VentaFantasias\Datos\bin\Debug\Entidad.dll
+C:\Users\Fabián\Desktop\VentaFantasias\Datos\bin\Debug\Entidad.pdb
+C:\Users\Fabián\Desktop\VentaFantasias\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Fabián\Desktop\VentaFantasias\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Fabián\Desktop\VentaFantasias\Datos\obj\Debug\Datos.csproj.Up2Date
+C:\Users\Fabián\Desktop\VentaFantasias\Datos\obj\Debug\Datos.dll
+C:\Users\Fabián\Desktop\VentaFantasias\Datos\obj\Debug\Datos.pdb

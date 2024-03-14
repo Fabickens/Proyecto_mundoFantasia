@@ -1,0 +1,9 @@
+C:\Users\Fabián\Desktop\VentaFantasias\Negocio\bin\Debug\Negocio.dll
+C:\Users\Fabián\Desktop\VentaFantasias\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Fabián\Desktop\VentaFantasias\Negocio\bin\Debug\Entidad.dll
+C:\Users\Fabián\Desktop\VentaFantasias\Negocio\bin\Debug\Entidad.pdb
+C:\Users\Fabián\Desktop\VentaFantasias\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Fabián\Desktop\VentaFantasias\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Fabián\Desktop\VentaFantasias\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Fabián\Desktop\VentaFantasias\Negocio\obj\Debug\Negocio.dll
+C:\Users\Fabián\Desktop\VentaFantasias\Negocio\obj\Debug\Negocio.pdb

@@ -32,8 +32,10 @@ namespace ProyectoFantasia
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_empleados = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_mantenimiento = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_ventas = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_compras = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_clientes = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,7 +45,7 @@ namespace ProyectoFantasia
             this.titulo = new System.Windows.Forms.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.Almacenamiento = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +54,7 @@ namespace ProyectoFantasia
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem7,
+            this.menu_empleados,
             this.menu_mantenimiento,
             this.menu_ventas,
             this.menu_compras,
@@ -63,26 +65,29 @@ namespace ProyectoFantasia
             this.menuStrip1.Location = new System.Drawing.Point(0, 72);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.menuStrip1.Size = new System.Drawing.Size(990, 86);
+            this.menuStrip1.Size = new System.Drawing.Size(1211, 86);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // toolStripMenuItem7
+            // menu_empleados
             // 
-            this.toolStripMenuItem7.AutoSize = false;
-            this.toolStripMenuItem7.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem7.ForeColor = System.Drawing.Color.Black;
-            this.toolStripMenuItem7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem7.Image")));
-            this.toolStripMenuItem7.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(80, 82);
-            this.toolStripMenuItem7.Text = "Usuarios";
-            this.toolStripMenuItem7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripMenuItem7.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
+            this.menu_empleados.AutoSize = false;
+            this.menu_empleados.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu_empleados.ForeColor = System.Drawing.Color.Black;
+            this.menu_empleados.Image = ((System.Drawing.Image)(resources.GetObject("menu_empleados.Image")));
+            this.menu_empleados.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menu_empleados.Name = "menu_empleados";
+            this.menu_empleados.Size = new System.Drawing.Size(80, 82);
+            this.menu_empleados.Text = "Empleados";
+            this.menu_empleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menu_empleados.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
             // 
             // menu_mantenimiento
             // 
             this.menu_mantenimiento.AutoSize = false;
+            this.menu_mantenimiento.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.toolStripMenuItem2});
             this.menu_mantenimiento.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menu_mantenimiento.ForeColor = System.Drawing.Color.Black;
             this.menu_mantenimiento.Image = ((System.Drawing.Image)(resources.GetObject("menu_mantenimiento.Image")));
@@ -91,6 +96,18 @@ namespace ProyectoFantasia
             this.menu_mantenimiento.Size = new System.Drawing.Size(80, 82);
             this.menu_mantenimiento.Text = "Ajustes";
             this.menu_mantenimiento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(186, 22);
+            this.toolStripMenuItem1.Text = "toolStripMenuItem1";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(186, 22);
+            this.toolStripMenuItem2.Text = "toolStripMenuItem2";
             // 
             // menu_ventas
             // 
@@ -170,7 +187,7 @@ namespace ProyectoFantasia
             this.titulo.BackColor = System.Drawing.Color.LightSlateGray;
             this.titulo.Location = new System.Drawing.Point(0, 0);
             this.titulo.Name = "titulo";
-            this.titulo.Size = new System.Drawing.Size(990, 72);
+            this.titulo.Size = new System.Drawing.Size(1211, 72);
             this.titulo.TabIndex = 1;
             this.titulo.Text = "menuStrip2";
             this.titulo.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip2_ItemClicked);
@@ -190,27 +207,29 @@ namespace ProyectoFantasia
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.Almacenamiento);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 158);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(990, 426);
+            this.panel1.Size = new System.Drawing.Size(1211, 579);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // panel2
+            // Almacenamiento
             // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(990, 426);
-            this.panel2.TabIndex = 0;
+            this.Almacenamiento.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Almacenamiento.Location = new System.Drawing.Point(0, 0);
+            this.Almacenamiento.Name = "Almacenamiento";
+            this.Almacenamiento.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Almacenamiento.Size = new System.Drawing.Size(1211, 579);
+            this.Almacenamiento.TabIndex = 0;
+            this.Almacenamiento.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(990, 584);
+            this.ClientSize = new System.Drawing.Size(1211, 737);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
@@ -237,14 +256,16 @@ namespace ProyectoFantasia
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStripMenuItem menu_mantenimiento;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem menu_empleados;
         private System.Windows.Forms.ToolStripMenuItem menu_ventas;
         private System.Windows.Forms.ToolStripMenuItem menu_compras;
         private System.Windows.Forms.ToolStripMenuItem menu_clientes;
         private System.Windows.Forms.ToolStripMenuItem menu_proveedores;
         private System.Windows.Forms.ToolStripMenuItem menu_reportes;
         private System.Windows.Forms.ToolStripMenuItem menu_acercaDe;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel Almacenamiento;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }
 

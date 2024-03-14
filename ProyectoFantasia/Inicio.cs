@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidad;
+using Negocio;
 
 namespace ProyectoFantasia
 {
@@ -29,7 +31,7 @@ namespace ProyectoFantasia
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -38,6 +40,17 @@ namespace ProyectoFantasia
         }
 
         private void toolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            FormEmpleados formEmpleados = new FormEmpleados();
+            formEmpleados.TopLevel = false;
+            formEmpleados.FormBorderStyle = FormBorderStyle.None;
+            formEmpleados.Dock = DockStyle.Fill;
+            formEmpleados.BackColor = Color.LightGray;
+            Almacenamiento.Controls.Add(formEmpleados);
+            formEmpleados.Show();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }

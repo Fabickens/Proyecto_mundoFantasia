@@ -9,7 +9,7 @@ namespace Entidad
     public class Venta
     {
         public int id_venta {  get; set; }
-        public Usuario Pusuario { get; set; }
+        public Empleado Pempleado { get; set; }
         public string tipoDocumento { get; set; }
         public string numero_documento { get; set; }
         public string nombre_cliente { get; set; }

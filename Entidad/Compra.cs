@@ -9,7 +9,7 @@ namespace Entidad
     public class Compra
     {
         public int id_compra { get; set; }
-        public Usuario Pusuario { get; set; }
+        public Empleado Pempleado { get; set; }
         public Proveedor Sproveedor { get; set; }
         public string tipoDocumento { get; set; }
         public string numero_Documento { get; set; }

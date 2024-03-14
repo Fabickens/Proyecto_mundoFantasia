@@ -10,3 +10,8 @@ C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFanta
 C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\Proyecto.5EC9B11D.Up2Date
 C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.exe
 C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.pdb
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\Entidad.dll
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\Negocio.dll
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\Entidad.pdb
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\Negocio.pdb
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.FormEmpleados.resources
