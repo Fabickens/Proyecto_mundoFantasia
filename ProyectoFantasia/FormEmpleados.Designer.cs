@@ -37,16 +37,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.text_cedula = new System.Windows.Forms.TextBox();
             this.text_correo = new System.Windows.Forms.TextBox();
-            this.nombreCompleto = new System.Windows.Forms.TextBox();
+            this.txt_nombreCompleto = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.botonEditar = new System.Windows.Forms.Button();
+            this.botonLimpiar = new System.Windows.Forms.Button();
             this.botonGuardar = new System.Windows.Forms.Button();
             this.botonEliminar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridViewEmpleados = new System.Windows.Forms.DataGridView();
+            this.seleccionarbtn = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Titulo = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.seleccionarbtn = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEmpleados)).BeginInit();
             this.SuspendLayout();
@@ -114,13 +114,13 @@
             this.text_correo.Size = new System.Drawing.Size(210, 20);
             this.text_correo.TabIndex = 6;
             // 
-            // nombreCompleto
+            // txt_nombreCompleto
             // 
-            this.nombreCompleto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.nombreCompleto.Location = new System.Drawing.Point(27, 268);
-            this.nombreCompleto.Name = "nombreCompleto";
-            this.nombreCompleto.Size = new System.Drawing.Size(210, 20);
-            this.nombreCompleto.TabIndex = 7;
+            this.txt_nombreCompleto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_nombreCompleto.Location = new System.Drawing.Point(27, 268);
+            this.txt_nombreCompleto.Name = "txt_nombreCompleto";
+            this.txt_nombreCompleto.Size = new System.Drawing.Size(210, 20);
+            this.txt_nombreCompleto.TabIndex = 7;
             // 
             // label6
             // 
@@ -136,20 +136,21 @@
             this.label6.Text = "Empleados";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // botonEditar
+            // botonLimpiar
             // 
-            this.botonEditar.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.botonEditar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.botonEditar.Font = new System.Drawing.Font("Arial", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonEditar.ForeColor = System.Drawing.Color.Black;
-            this.botonEditar.Image = ((System.Drawing.Image)(resources.GetObject("botonEditar.Image")));
-            this.botonEditar.Location = new System.Drawing.Point(12, 384);
-            this.botonEditar.Name = "botonEditar";
-            this.botonEditar.Size = new System.Drawing.Size(75, 64);
-            this.botonEditar.TabIndex = 12;
-            this.botonEditar.Text = "Editar";
-            this.botonEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botonEditar.UseVisualStyleBackColor = false;
+            this.botonLimpiar.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.botonLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.botonLimpiar.Font = new System.Drawing.Font("Arial", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonLimpiar.ForeColor = System.Drawing.Color.Black;
+            this.botonLimpiar.Image = ((System.Drawing.Image)(resources.GetObject("botonLimpiar.Image")));
+            this.botonLimpiar.Location = new System.Drawing.Point(12, 384);
+            this.botonLimpiar.Name = "botonLimpiar";
+            this.botonLimpiar.Size = new System.Drawing.Size(75, 64);
+            this.botonLimpiar.TabIndex = 12;
+            this.botonLimpiar.Text = "Limpiar";
+            this.botonLimpiar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botonLimpiar.UseVisualStyleBackColor = false;
+            
             // 
             // botonGuardar
             // 
@@ -166,6 +167,7 @@
             this.botonGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.botonGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.botonGuardar.UseVisualStyleBackColor = false;
+            this.botonGuardar.Click += new System.EventHandler(this.botonGuardar_Click_1);
             // 
             // botonEliminar
             // 
@@ -181,6 +183,7 @@
             this.botonEliminar.Text = "Eliminar";
             this.botonEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.botonEliminar.UseVisualStyleBackColor = false;
+            this.botonEliminar.Click += new System.EventHandler(this.botonEliminar_Click);
             // 
             // pictureBox1
             // 
@@ -215,6 +218,16 @@
             this.dataGridViewEmpleados.TabIndex = 16;
             this.dataGridViewEmpleados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewEmpleados_CellContentClick);
             // 
+            // seleccionarbtn
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.seleccionarbtn.DefaultCellStyle = dataGridViewCellStyle4;
+            this.seleccionarbtn.HeaderText = "";
+            this.seleccionarbtn.Name = "seleccionarbtn";
+            this.seleccionarbtn.ReadOnly = true;
+            this.seleccionarbtn.Width = 30;
+            // 
             // Titulo
             // 
             this.Titulo.BackColor = System.Drawing.Color.LightGray;
@@ -236,16 +249,6 @@
             this.textBox1.Size = new System.Drawing.Size(26, 20);
             this.textBox1.TabIndex = 18;
             // 
-            // seleccionarbtn
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.seleccionarbtn.DefaultCellStyle = dataGridViewCellStyle4;
-            this.seleccionarbtn.HeaderText = "";
-            this.seleccionarbtn.Name = "seleccionarbtn";
-            this.seleccionarbtn.ReadOnly = true;
-            this.seleccionarbtn.Width = 30;
-            // 
             // FormEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -258,9 +261,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.botonEliminar);
             this.Controls.Add(this.botonGuardar);
-            this.Controls.Add(this.botonEditar);
+            this.Controls.Add(this.botonLimpiar);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.nombreCompleto);
+            this.Controls.Add(this.txt_nombreCompleto);
             this.Controls.Add(this.text_correo);
             this.Controls.Add(this.text_cedula);
             this.Controls.Add(this.label4);
@@ -286,9 +289,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox text_cedula;
         private System.Windows.Forms.TextBox text_correo;
-        private System.Windows.Forms.TextBox nombreCompleto;
+        private System.Windows.Forms.TextBox txt_nombreCompleto;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button botonEditar;
+        private System.Windows.Forms.Button botonLimpiar;
         private System.Windows.Forms.Button botonGuardar;
         private System.Windows.Forms.Button botonEliminar;
         private System.Windows.Forms.PictureBox pictureBox1;
