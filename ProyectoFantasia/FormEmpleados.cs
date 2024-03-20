@@ -1,5 +1,4 @@
-﻿using Entidad;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -58,14 +57,14 @@ namespace ProyectoFantasia
         private void botonEliminar_Click(object sender, EventArgs e)
         {
             string connectionString = "server=LAPTOP-7S7U7UK3\\SQLEXPRESS; database=sistemaFantasia; integrated security=true";
-            string query = "Delete FROM empleado WHERE cedula = @cedula";
+            string query = "Delete FROM empleado WHERE id_empleado = @Idempleado";
 
             try
             {
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     SqlCommand command = new SqlCommand(query, connection);
-                    command.Parameters.AddWithValue("@cedula", text_cedula.Text);                  
+                    command.Parameters.AddWithValue("@Idempleado", textBox1.Text);                  
                     connection.Open();
                     command.ExecuteNonQuery();
                 }
@@ -76,7 +75,7 @@ namespace ProyectoFantasia
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al guardar el empleado: " + ex.Message);              
+                MessageBox.Show("Error al eliminar el empleado: " + ex.Message);              
             }
         }
 

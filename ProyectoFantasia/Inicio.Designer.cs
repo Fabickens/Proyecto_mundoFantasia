@@ -34,8 +34,8 @@ namespace ProyectoFantasia
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menu_empleados = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_mantenimiento = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuCategoria = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuProducto = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_ventas = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_compras = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_clientes = new System.Windows.Forms.ToolStripMenuItem();
@@ -77,7 +77,7 @@ namespace ProyectoFantasia
             this.menu_empleados.Image = ((System.Drawing.Image)(resources.GetObject("menu_empleados.Image")));
             this.menu_empleados.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.menu_empleados.Name = "menu_empleados";
-            this.menu_empleados.Size = new System.Drawing.Size(80, 82);
+            this.menu_empleados.Size = new System.Drawing.Size(122, 82);
             this.menu_empleados.Text = "Empleados";
             this.menu_empleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menu_empleados.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
@@ -86,8 +86,8 @@ namespace ProyectoFantasia
             // 
             this.menu_mantenimiento.AutoSize = false;
             this.menu_mantenimiento.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.toolStripMenuItem2});
+            this.MenuCategoria,
+            this.MenuProducto});
             this.menu_mantenimiento.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menu_mantenimiento.ForeColor = System.Drawing.Color.Black;
             this.menu_mantenimiento.Image = ((System.Drawing.Image)(resources.GetObject("menu_mantenimiento.Image")));
@@ -97,17 +97,19 @@ namespace ProyectoFantasia
             this.menu_mantenimiento.Text = "Ajustes";
             this.menu_mantenimiento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
-            // toolStripMenuItem1
+            // MenuCategoria
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(186, 22);
-            this.toolStripMenuItem1.Text = "toolStripMenuItem1";
+            this.MenuCategoria.Name = "MenuCategoria";
+            this.MenuCategoria.Size = new System.Drawing.Size(180, 22);
+            this.MenuCategoria.Text = "Categoria";
+            this.MenuCategoria.Click += new System.EventHandler(this.MenuCategoria_Click);
             // 
-            // toolStripMenuItem2
+            // MenuProducto
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(186, 22);
-            this.toolStripMenuItem2.Text = "toolStripMenuItem2";
+            this.MenuProducto.Name = "MenuProducto";
+            this.MenuProducto.Size = new System.Drawing.Size(180, 22);
+            this.MenuProducto.Text = "Producto";
+            this.MenuProducto.Click += new System.EventHandler(this.MenuProducto_Click);
             // 
             // menu_ventas
             // 
@@ -144,6 +146,7 @@ namespace ProyectoFantasia
             this.menu_clientes.Size = new System.Drawing.Size(80, 82);
             this.menu_clientes.Text = "Clientes";
             this.menu_clientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menu_clientes.Click += new System.EventHandler(this.menu_clientes_Click);
             // 
             // menu_proveedores
             // 
@@ -264,8 +267,8 @@ namespace ProyectoFantasia
         private System.Windows.Forms.ToolStripMenuItem menu_reportes;
         private System.Windows.Forms.ToolStripMenuItem menu_acercaDe;
         private System.Windows.Forms.Panel Almacenamiento;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem MenuCategoria;
+        private System.Windows.Forms.ToolStripMenuItem MenuProducto;
     }
 }
 

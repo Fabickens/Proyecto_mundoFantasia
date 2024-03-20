@@ -15,3 +15,6 @@ C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\Negocio.dll
 C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\Entidad.pdb
 C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\bin\Debug\Negocio.pdb
 C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.FormEmpleados.resources
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.FormProductos.resources
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.FormCategoria.resources
+C:\Users\Fabián\Desktop\VentaFantasias\ProyectoFantasia\obj\Debug\ProyectoFantasia.FormClientes.resources

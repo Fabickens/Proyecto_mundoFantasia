@@ -7,8 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Entidad;
-using Negocio;
 
 namespace ProyectoFantasia
 {
@@ -41,6 +39,7 @@ namespace ProyectoFantasia
 
         private void toolStripMenuItem7_Click(object sender, EventArgs e)
         {
+            LimpiarAlmacenamiento();
             FormEmpleados formEmpleados = new FormEmpleados();
             formEmpleados.TopLevel = false;
             formEmpleados.FormBorderStyle = FormBorderStyle.None;
@@ -51,8 +50,53 @@ namespace ProyectoFantasia
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
-        {
+        {        
 
+        }
+        
+        private void LimpiarAlmacenamiento()
+        {
+            foreach (Control control in Almacenamiento.Controls)
+            {
+                control.Dispose();
+            }
+            Almacenamiento.Controls.Clear();
+        }
+
+        private void MenuCategoria_Click(object sender, EventArgs e)
+        {
+            LimpiarAlmacenamiento();
+            FormCategoria formCategoria = new FormCategoria();
+            formCategoria.TopLevel = false;
+            formCategoria.FormBorderStyle = FormBorderStyle.None;
+            formCategoria.Dock = DockStyle.Fill;
+            formCategoria.BackColor = Color.LightGray;
+            Almacenamiento.Controls.Add(formCategoria);
+            formCategoria.Show();
+        }
+
+        private void MenuProducto_Click(object sender, EventArgs e)
+        {
+            LimpiarAlmacenamiento();
+            FormProductos formProdutos = new FormProductos();
+            formProdutos.TopLevel = false;
+            formProdutos.FormBorderStyle = FormBorderStyle.None;
+            formProdutos.Dock = DockStyle.Fill;
+            formProdutos.BackColor = Color.LightGray;
+            Almacenamiento.Controls.Add(formProdutos);
+            formProdutos.Show();
+        }
+
+        private void menu_clientes_Click(object sender, EventArgs e)
+        {
+            LimpiarAlmacenamiento();
+            FormClientes formClientes = new FormClientes();
+            formClientes.TopLevel = false;
+            formClientes.FormBorderStyle = FormBorderStyle.None;
+            formClientes.Dock = DockStyle.Fill;
+            formClientes.BackColor = Color.LightGray;
+            Almacenamiento.Controls.Add(formClientes);
+            formClientes.Show();
         }
     }
 }
