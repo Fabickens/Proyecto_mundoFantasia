@@ -104,6 +104,7 @@
             this.botonEliminar.Text = "Eliminar";
             this.botonEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.botonEliminar.UseVisualStyleBackColor = false;
+            this.botonEliminar.Click += new System.EventHandler(this.botonEliminar_Click);
             // 
             // botonGuardar
             // 
@@ -120,6 +121,7 @@
             this.botonGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.botonGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.botonGuardar.UseVisualStyleBackColor = false;
+            this.botonGuardar.Click += new System.EventHandler(this.botonGuardar_Click);
             // 
             // botonLimpiar
             // 
