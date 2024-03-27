@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|c:\\users\\fabi\u00E1n\\desktop\\ventafantasias\\proyectofantasia\\formempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|solutionrelative:proyectofantasia\\formempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\proyectofantasia\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|solutionrelative:proyectofantasia\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEAFB7D6-C3A7-48B9-90C4-9F9FFF4FD677}|Entidad\\Modelo.csproj|C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\entidad\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEAFB7D6-C3A7-48B9-90C4-9F9FFF4FD677}|Entidad\\Modelo.csproj|solutionrelative:entidad\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\proyectofantasia\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|solutionrelative:proyectofantasia\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\proyectofantasia\\formempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|solutionrelative:proyectofantasia\\formempleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\proyectofantasia\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|solutionrelative:proyectofantasia\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEAFB7D6-C3A7-48B9-90C4-9F9FFF4FD677}|Entidad\\Modelo.csproj|C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\entidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEAFB7D6-C3A7-48B9-90C4-9F9FFF4FD677}|Entidad\\Modelo.csproj|solutionrelative:entidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEAFB7D6-C3A7-48B9-90C4-9F9FFF4FD677}|Entidad\\Modelo.csproj|c:\\users\\fabi\u00E1n\\desktop\\ventafantasias\\entidad\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAFB7D6-C3A7-48B9-90C4-9F9FFF4FD677}|Entidad\\Modelo.csproj|solutionrelative:entidad\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAFB7D6-C3A7-48B9-90C4-9F9FFF4FD677}|Entidad\\Modelo.csproj|c:\\users\\fabi\u00E1n\\desktop\\ventafantasias\\entidad\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAFB7D6-C3A7-48B9-90C4-9F9FFF4FD677}|Entidad\\Modelo.csproj|solutionrelative:entidad\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|c:\\users\\fabi\u00E1n\\desktop\\ventafantasias\\proyectofantasia\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|solutionrelative:proyectofantasia\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\proyectofantasia\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|solutionrelative:proyectofantasia\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\proyectofantasia\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D0E5314-4F76-4E22-B69D-59ED8927F54C}|ProyectoFantasia\\ProyectoFantasia.csproj|solutionrelative:proyectofantasia\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 294,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +54,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\Entidad\\Venta.cs",
-              "RelativeDocumentMoniker": "Entidad\\Venta.cs",
-              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\Entidad\\Venta.cs",
-              "RelativeToolTip": "Entidad\\Venta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\Entidad\\Producto.cs",
+              "RelativeDocumentMoniker": "Entidad\\Producto.cs",
+              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\Entidad\\Producto.cs",
+              "RelativeToolTip": "Entidad\\Producto.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T19:31:20.85Z"
+              "WhenOpened": "2024-03-27T22:50:33.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormProductos.cs",
+              "RelativeDocumentMoniker": "ProyectoFantasia\\FormProductos.cs",
+              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoFantasia\\FormProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T22:43:23.282Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\Entidad\\Empleado.cs",
-              "RelativeDocumentMoniker": "Entidad\\Empleado.cs",
-              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\Entidad\\Empleado.cs",
-              "RelativeToolTip": "Entidad\\Empleado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Title": "FormProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormProductos.cs",
+              "RelativeDocumentMoniker": "ProyectoFantasia\\FormProductos.cs",
+              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormProductos.cs",
+              "RelativeToolTip": "ProyectoFantasia\\FormProductos.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAuwJcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T19:16:52.75Z",
+              "WhenOpened": "2024-03-27T22:07:47.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormEmpleados.cs",
-              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormEmpleados.cs",
-              "RelativeDocumentMoniker": "ProyectoFantasia\\FormEmpleados.cs",
-              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormEmpleados.cs",
-              "RelativeToolTip": "ProyectoFantasia\\FormEmpleados.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAAAFgAAAAgAAAA",
+              "Title": "FormClientes.cs",
+              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormClientes.cs",
+              "RelativeDocumentMoniker": "ProyectoFantasia\\FormClientes.cs",
+              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormClientes.cs",
+              "RelativeToolTip": "ProyectoFantasia\\FormClientes.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAqwLIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:36:45.67Z",
+              "WhenOpened": "2024-03-27T22:06:49.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormEmpleados.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormEmpleados.cs",
-              "RelativeDocumentMoniker": "ProyectoFantasia\\FormEmpleados.cs",
-              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormEmpleados.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoFantasia\\FormEmpleados.cs [Dise\u00F1o]",
+              "Title": "FormClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormClientes.cs",
+              "RelativeDocumentMoniker": "ProyectoFantasia\\FormClientes.cs",
+              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\FormClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoFantasia\\FormClientes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T18:36:14.57Z",
+              "WhenOpened": "2024-03-27T22:06:46.645Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\Entidad\\Cliente.cs",
+              "RelativeDocumentMoniker": "Entidad\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\Entidad\\Cliente.cs",
+              "RelativeToolTip": "Entidad\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T22:02:39.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\Inicio.cs",
+              "RelativeDocumentMoniker": "ProyectoFantasia\\Inicio.cs",
+              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\Inicio.cs",
+              "RelativeToolTip": "ProyectoFantasia\\Inicio.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAiwEwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:59:44.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\Inicio.cs",
+              "RelativeDocumentMoniker": "ProyectoFantasia\\Inicio.cs",
+              "ToolTip": "C:\\Users\\Fabi\u00E1n\\Desktop\\VentaFantasias\\ProyectoFantasia\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoFantasia\\Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:59:32.931Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

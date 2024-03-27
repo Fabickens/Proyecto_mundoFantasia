@@ -33,11 +33,8 @@ namespace ProyectoFantasia
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menu_empleados = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_mantenimiento = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuCategoria = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuProducto = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_ventas = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_compras = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_productos = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_clientes = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_proveedores = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_reportes = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,9 +52,8 @@ namespace ProyectoFantasia
             this.menuStrip1.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menu_empleados,
-            this.menu_mantenimiento,
             this.menu_ventas,
-            this.menu_compras,
+            this.menu_productos,
             this.menu_clientes,
             this.menu_proveedores,
             this.menu_reportes,
@@ -82,35 +78,6 @@ namespace ProyectoFantasia
             this.menu_empleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menu_empleados.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
             // 
-            // menu_mantenimiento
-            // 
-            this.menu_mantenimiento.AutoSize = false;
-            this.menu_mantenimiento.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MenuCategoria,
-            this.MenuProducto});
-            this.menu_mantenimiento.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu_mantenimiento.ForeColor = System.Drawing.Color.Black;
-            this.menu_mantenimiento.Image = ((System.Drawing.Image)(resources.GetObject("menu_mantenimiento.Image")));
-            this.menu_mantenimiento.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menu_mantenimiento.Name = "menu_mantenimiento";
-            this.menu_mantenimiento.Size = new System.Drawing.Size(80, 82);
-            this.menu_mantenimiento.Text = "Ajustes";
-            this.menu_mantenimiento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // MenuCategoria
-            // 
-            this.MenuCategoria.Name = "MenuCategoria";
-            this.MenuCategoria.Size = new System.Drawing.Size(180, 22);
-            this.MenuCategoria.Text = "Categoria";
-            this.MenuCategoria.Click += new System.EventHandler(this.MenuCategoria_Click);
-            // 
-            // MenuProducto
-            // 
-            this.MenuProducto.Name = "MenuProducto";
-            this.MenuProducto.Size = new System.Drawing.Size(180, 22);
-            this.MenuProducto.Text = "Producto";
-            this.MenuProducto.Click += new System.EventHandler(this.MenuProducto_Click);
-            // 
             // menu_ventas
             // 
             this.menu_ventas.AutoSize = false;
@@ -123,17 +90,18 @@ namespace ProyectoFantasia
             this.menu_ventas.Text = "Ventas";
             this.menu_ventas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
-            // menu_compras
+            // menu_productos
             // 
-            this.menu_compras.AutoSize = false;
-            this.menu_compras.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu_compras.ForeColor = System.Drawing.Color.Black;
-            this.menu_compras.Image = ((System.Drawing.Image)(resources.GetObject("menu_compras.Image")));
-            this.menu_compras.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menu_compras.Name = "menu_compras";
-            this.menu_compras.Size = new System.Drawing.Size(80, 82);
-            this.menu_compras.Text = "Compras";
-            this.menu_compras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menu_productos.AutoSize = false;
+            this.menu_productos.Font = new System.Drawing.Font("Arial", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu_productos.ForeColor = System.Drawing.Color.Black;
+            this.menu_productos.Image = ((System.Drawing.Image)(resources.GetObject("menu_productos.Image")));
+            this.menu_productos.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menu_productos.Name = "menu_productos";
+            this.menu_productos.Size = new System.Drawing.Size(80, 82);
+            this.menu_productos.Text = "Productos";
+            this.menu_productos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menu_productos.Click += new System.EventHandler(this.menu_compras_Click);
             // 
             // menu_clientes
             // 
@@ -258,17 +226,14 @@ namespace ProyectoFantasia
         private System.Windows.Forms.MenuStrip titulo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ToolStripMenuItem menu_mantenimiento;
         private System.Windows.Forms.ToolStripMenuItem menu_empleados;
         private System.Windows.Forms.ToolStripMenuItem menu_ventas;
-        private System.Windows.Forms.ToolStripMenuItem menu_compras;
+        private System.Windows.Forms.ToolStripMenuItem menu_productos;
         private System.Windows.Forms.ToolStripMenuItem menu_clientes;
         private System.Windows.Forms.ToolStripMenuItem menu_proveedores;
         private System.Windows.Forms.ToolStripMenuItem menu_reportes;
         private System.Windows.Forms.ToolStripMenuItem menu_acercaDe;
         private System.Windows.Forms.Panel Almacenamiento;
-        private System.Windows.Forms.ToolStripMenuItem MenuCategoria;
-        private System.Windows.Forms.ToolStripMenuItem MenuProducto;
     }
 }
 

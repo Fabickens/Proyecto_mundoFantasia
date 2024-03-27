@@ -65,26 +65,12 @@ namespace ProyectoFantasia
 
         private void MenuCategoria_Click(object sender, EventArgs e)
         {
-            LimpiarAlmacenamiento();
-            FormCategoria formCategoria = new FormCategoria();
-            formCategoria.TopLevel = false;
-            formCategoria.FormBorderStyle = FormBorderStyle.None;
-            formCategoria.Dock = DockStyle.Fill;
-            formCategoria.BackColor = Color.LightGray;
-            Almacenamiento.Controls.Add(formCategoria);
-            formCategoria.Show();
+            
         }
 
         private void MenuProducto_Click(object sender, EventArgs e)
         {
-            LimpiarAlmacenamiento();
-            FormProductos formProdutos = new FormProductos();
-            formProdutos.TopLevel = false;
-            formProdutos.FormBorderStyle = FormBorderStyle.None;
-            formProdutos.Dock = DockStyle.Fill;
-            formProdutos.BackColor = Color.LightGray;
-            Almacenamiento.Controls.Add(formProdutos);
-            formProdutos.Show();
+           
         }
 
         private void menu_clientes_Click(object sender, EventArgs e)
@@ -97,6 +83,18 @@ namespace ProyectoFantasia
             formClientes.BackColor = Color.LightGray;
             Almacenamiento.Controls.Add(formClientes);
             formClientes.Show();
+        }
+
+        private void menu_compras_Click(object sender, EventArgs e)
+        {
+            LimpiarAlmacenamiento();
+            FormProductos formProdutos = new FormProductos();
+            formProdutos.TopLevel = false;
+            formProdutos.FormBorderStyle = FormBorderStyle.None;
+            formProdutos.Dock = DockStyle.Fill;
+            formProdutos.BackColor = Color.LightGray;
+            Almacenamiento.Controls.Add(formProdutos);
+            formProdutos.Show();
         }
     }
 }

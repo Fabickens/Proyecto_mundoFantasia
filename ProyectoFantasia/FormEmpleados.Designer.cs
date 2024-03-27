@@ -168,6 +168,7 @@
             this.botonLimpiar.Text = "Editar";
             this.botonLimpiar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.botonLimpiar.UseVisualStyleBackColor = false;
+            this.botonLimpiar.Click += new System.EventHandler(this.botonLimpiar_Click);
             // 
             // botonGuardar
             // 

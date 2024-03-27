@@ -152,6 +152,52 @@ namespace ProyectoFantasia
                 MessageBox.Show("Por favor, seleccione un empleado para eliminar.");
             }
         }
+
+        private void botonLimpiar_Click(object sender, EventArgs e)
+        {
+            if (Convert.ToInt32(textBox1.Text) != 0)
+            {
+                int indice = Convert.ToInt32(text_indice.Text);
+                int idEmpleado = Convert.ToInt32(textBox1.Text);
+                string nombre = txt_nombreCompleto.Text;
+                string cedula = text_cedula.Text;
+                string correo = text_correo.Text;
+                decimal salario = decimal.Parse(text_salario.Text);
+                string area_trabajo = text_areaTrabajo.Text;
+
+                try
+                {
+                    using (SqlConnection connection = new SqlConnection(ConnectionString))
+                    {
+                        // Actualizar el empleado
+                        string query = "UPDATE empleado SET nombre_completo = @nombre_completo, cedula = @cedula, " +
+                                       "correo = @correo, salario = @salario, area_trabajo = @area_trabajo " +
+                                       "WHERE id_empleado = @idEmpleado";
+                        SqlCommand command = new SqlCommand(query, connection);
+                        command.Parameters.AddWithValue("@nombre_completo", nombre);
+                        command.Parameters.AddWithValue("@cedula", cedula);
+                        command.Parameters.AddWithValue("@correo", correo);
+                        command.Parameters.AddWithValue("@salario", salario);
+                        command.Parameters.AddWithValue("@area_trabajo", area_trabajo);
+                        command.Parameters.AddWithValue("@idEmpleado", idEmpleado);
+                        connection.Open();
+                        command.ExecuteNonQuery();
+                    }
+
+                    MessageBox.Show("Empleado actualizado correctamente.");
+                    ActualizarVista();
+                    LimpiarCampos();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al actualizar el empleado: " + ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, seleccione un empleado para editar.");
+            }
+        }
     }
 }
  
