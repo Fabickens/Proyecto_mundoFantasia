@@ -67,7 +67,7 @@
             this.dataGridViewEmpleados.ReadOnly = true;
             this.dataGridViewEmpleados.Size = new System.Drawing.Size(725, 432);
             this.dataGridViewEmpleados.TabIndex = 46;
-            this.dataGridViewEmpleados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewEmpleados_CellContentClick);
+         
             // 
             // seleccionarbtn
             // 
@@ -104,7 +104,7 @@
             this.botonEliminar.Text = "Eliminar";
             this.botonEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.botonEliminar.UseVisualStyleBackColor = false;
-            this.botonEliminar.Click += new System.EventHandler(this.botonEliminar_Click);
+           
             // 
             // botonGuardar
             // 
@@ -121,7 +121,7 @@
             this.botonGuardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.botonGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.botonGuardar.UseVisualStyleBackColor = false;
-            this.botonGuardar.Click += new System.EventHandler(this.botonGuardar_Click);
+         
             // 
             // botonLimpiar
             // 

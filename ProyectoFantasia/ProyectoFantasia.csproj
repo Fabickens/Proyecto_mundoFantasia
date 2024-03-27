@@ -85,6 +85,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TiendaFantasiaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TiendaFantasiaDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FormCategoria.resx">
       <DependentUpon>FormCategoria.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,18 +124,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TiendaFantasiaDataSet.xsc">
+      <DependentUpon>TiendaFantasiaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TiendaFantasiaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TiendaFantasiaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TiendaFantasiaDataSet.xss">
+      <DependentUpon>TiendaFantasiaDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entidad\Entidad.csproj">
+    <ProjectReference Include="..\Entidad\Modelo.csproj">
       <Project>{beafb7d6-c3a7-48b9-90c4-9f9fff4fd677}</Project>
-      <Name>Entidad</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Negocio\Negocio.csproj">
-      <Project>{fbaac4c7-93ea-41cd-b16f-68feba778fb2}</Project>
-      <Name>Negocio</Name>
+      <Name>Modelo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

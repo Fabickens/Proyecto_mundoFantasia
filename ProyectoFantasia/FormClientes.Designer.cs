@@ -71,7 +71,7 @@
             this.dataGridViewEmpleados.ReadOnly = true;
             this.dataGridViewEmpleados.Size = new System.Drawing.Size(725, 432);
             this.dataGridViewEmpleados.TabIndex = 46;
-            this.dataGridViewEmpleados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewEmpleados_CellContentClick);
+          
             // 
             // seleccionarbtn
             // 

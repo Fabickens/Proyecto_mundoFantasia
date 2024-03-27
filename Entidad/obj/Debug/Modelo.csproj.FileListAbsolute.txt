@@ -1,0 +1,6 @@
+C:\Users\Fabián\Desktop\VentaFantasias\Entidad\bin\Debug\Entidad.dll
+C:\Users\Fabián\Desktop\VentaFantasias\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Fabián\Desktop\VentaFantasias\Entidad\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Fabián\Desktop\VentaFantasias\Entidad\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Fabián\Desktop\VentaFantasias\Entidad\obj\Debug\Entidad.dll
+C:\Users\Fabián\Desktop\VentaFantasias\Entidad\obj\Debug\Entidad.pdb

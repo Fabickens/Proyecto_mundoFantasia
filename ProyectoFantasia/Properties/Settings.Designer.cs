@@ -33,5 +33,16 @@ namespace ProyectoFantasia.Properties {
                 return ((string)(this["sistemaFantasiaConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-7S7U7UK3\\SQLEXPRESS;Initial Catalog=TiendaFantasia;Integrated " +
+            "Security=True;TrustServerCertificate=True")]
+        public string TiendaFantasiaConnectionString {
+            get {
+                return ((string)(this["TiendaFantasiaConnectionString"]));
+            }
+        }
     }
 }
